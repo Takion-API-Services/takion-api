@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='takion-api',
-    version='0.1.2',
+    name='takion_api',
+    version='0.1.23',
     packages=find_packages(),
     install_requires=[
         line.strip() for line in open("requirements.txt", "r").readlines()
