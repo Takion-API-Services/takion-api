@@ -191,6 +191,8 @@ class TakionAPIDatadome:
         '''
         if not self.challenge_type and challenge_type not in ["interstitial", "geetest"]:
             raise ValueError("Challenge type not set")
+        elif not self.challenge_type and challenge_type in ["interstitial", "geetest"]:
+            self.challenge_type = challenge_type
         
         try:
             res = post(
