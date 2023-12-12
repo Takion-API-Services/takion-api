@@ -3,6 +3,15 @@ This is the official repository for the TakionAPI Python library. TakionAPI is a
 
 ![TakionAPI](https://takionapi.tech/banner)
 
+<p align="center">
+    <a href="https://pypi.org/project/takion-api/">
+        <img src="https://img.shields.io/pypi/v/takion-api.svg" alt="PyPI Version"/>
+    </a>
+    <a href="https://github.com/Takion-API-Services/takion-api/stargazers">
+        <img src="https://img.shields.io/github/stars/Takion-API-Services/takion-api.svg?style=social&label=Star" alt="GitHub Stars"/>
+    </a>
+</p>
+
 ## Table of Contents
 - [takion-api](#takion-api)
   - [Table of Contents](#table-of-contents)

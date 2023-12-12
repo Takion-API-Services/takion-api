@@ -10,7 +10,7 @@ class CookieRequest(TypedDict):
     url: str
 
 class TakionAPIDatadome:
-    BASE_URL = "http://127.0.0.1:4777/datadome/{}?api_key={}"
+    BASE_URL = "https://takionapi.tech/datadome/{}?api_key={}"
     api_key: str
     challenge_type: Optional[str]
 
